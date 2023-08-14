@@ -1,12 +1,12 @@
 variable "azure_resource_name" {
   type = string
   description = "Common name for azure resources"
-  default = "aks_automate_service"
+  default = "aks_automate"
 }
 
 variable "resource_group_name" {
     type = string
-    default = "Automate-demo-rg"
+    default = "Automate-demo"
 }
 
 variable "location" {
@@ -15,6 +15,6 @@ variable "location" {
 }
 
 variable "keyvault_name" {
- default = "junek8s23"
+ default = "junek8s2323"
 }
 
